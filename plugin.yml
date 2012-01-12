@@ -1,5 +1,5 @@
 name: SetRankPB
-version: 1.2.1
+version: 1.3.0
 softdepend: [Spout]
 main: com.baummann.setrankpb.SetRankPB
 commands:
@@ -21,3 +21,13 @@ permissions:
    setrankpb.iconomy.price:
       description: Ability to view a price of a rank.
       default: op
+   setrankpb.iconomy.buy.<rank>:
+      description: Ability to buy a specific rank.
+      default: op
+   setrankpb.iconomy.buy.*:
+      description: Ability to buy all ranks.
+      default: op
+   setrankpb.iconomy.pricelist:
+      description: Permission to view the price list.
+      default: op
+      

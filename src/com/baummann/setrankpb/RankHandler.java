@@ -10,6 +10,7 @@ import org.bukkit.entity.Player;
 import org.bukkit.util.config.Configuration;
 import org.getspout.spoutapi.player.SpoutPlayer;
 
+@SuppressWarnings("deprecation")
 public class RankHandler {
     public File permissionsFile = new File("plugins/PermissionsBukkit/config.yml");
     public static SetRankPB plugin;
