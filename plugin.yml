@@ -1,6 +1,6 @@
 name: SetRankPB
 version: 1.3.2
-softdepend: [Spout, iConomy]
+softdepend: [Spout]
 main: com.baummann.setrankpb.SetRankPB
 commands:
    setrank:
